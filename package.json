@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/mocha src/test/*.test.js",
-    "start": "NODE_ENV=test nodemon src/app.js",
-    "debug": "NODE_ENV=test nodemon --inspect=0.0.0.0 src/app.js"
+    "test": "test ./node_modules/.bin/mocha src/test/*.test.js",
+    "start": "test nodemon src/app.js",
+    "debug": "test nodemon --inspect=0.0.0.0 src/app.js"
   },
   "author": "Oliver",
   "license": "ISC",
